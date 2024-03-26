@@ -1,0 +1,71 @@
+/* RESETTERS -GLOBAL STYLES */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 600px; /* puts all content in 600px box */
+    margin: 50px auto; /* goves 50px margin top-bottom and auto left right for future resize*/
+    padding: 20px; /*20px padding around main.container */
+    background-color: hsl(0, 0%, 92%);
+    border-radius: 25px; /* makes corners smooth rounded*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);  /*shadow behind background */
+
+}
+
+.pageOfContents{
+    max-width: 800px; /* similar to container */
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+/* form style */
+form{
+    display: flex;  /* declare form elements as flex */
+    flex-direction: column; /*puts them top to bottom */
+
+}
+
+label{
+    margin-bottom: 8px; /* Puts some space between box and title */
+}
+
+
+input[type="text"],
+textarea{
+padding: 8px;
+margin-bottom: 16px;
+border: 1px solid #ccc; /* sets border for text area and titles */
+border-radius: 20px;
+
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #0056b3; /* slighty darker colour to make user notice they hovering over Submit button */
+}
+
+/* Header style (post.html) */
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+

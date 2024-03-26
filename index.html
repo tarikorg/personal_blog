@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarik's Personal Blog</title>
+<!-- LINK CSS DONT FORGET -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Todo 
+    Welcome text , user name , blog title , content
+    <form   for submitting a new blog post
+    <label and input fields for username,blogTitle, blogContent
+    a submit button
+
+-->
+
+    <main class="container">
+        <h1>Welcome to Tarik's personal blog!</h1>
+
+        <form id="blogForm" action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="usernameInput" name="username" placeholder="Enter your Username" required>
+
+            <label for="blogTitle">Blog Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" placeholder="Name your Blog Title" required>
+
+            <label for="blogContent">Blog Content:</label>
+            <!-- text area fits better for blog content since it can be bigger  -->
+            <textarea type="text" name="blogContent" id="blogContent" placeholder="Enter your Blog Content"
+                required></textarea>
+
+            <button type="submit">Submit</button>
+
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Developed by Muhsin Tarik Orgerim</p>
+    </footer>
+
+<script src="javascript/script.js"></script>
+</body>
+
+</html>
