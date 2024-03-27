@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarik's Personal Blog</title>
 <!-- LINK CSS DONT FORGET -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="Assets/css/style.css">
+<link rel="stylesheet" href="Assets/css/toggle.css">
 </head>
 
 <body>
@@ -19,8 +20,16 @@
 -->
 
     <main class="container">
+        <header>
         <h1>Welcome to Tarik's personal blog!</h1>
-
+        <div class="toggle-option">
+            <button id="toggleMode">Dark/Light Mode</button>
+        </div>
+        <a href="posts.html"> 
+            <button>View Blog</button>
+        </a>
+            
+</header>
         <form id="blogForm"  method="post">
             <label for="username">Username:</label>
             <input type="text" id="usernameInput" name="username" placeholder="Enter your Username" required>
@@ -43,10 +52,13 @@
 
     <footer>
         <p>Developed by Muhsin Tarik Orgerim</p>
+        <a class="link" href="https://github.com/tarikorg">Github</a>
+        <a class="link" href="https://github.com/tarikorg/portfolio_core-Skills">Portfolio</a>
+       <p>Email: <a href="">myku1771@gmail.com</a></p>
     </footer>
 
-<script src="javascript/form.js"></script>
-<script src="javascript/logic.js"></script>
+<script src="/Assets/javascript/form.js"></script>
+<script src="/Assets/javascript/logic.js"></script>
 
 </body>
 

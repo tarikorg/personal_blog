@@ -23,7 +23,10 @@
 }
 
 
+
 /* form style */
+
+
 form{
     display: flex;  /* declare form elements as flex */
     flex-direction: column; /*puts them top to bottom */
@@ -52,6 +55,7 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 
@@ -69,9 +73,29 @@ header{
     margin-bottom: 20px;
 }
 
+li{
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+}
 
 /* footer */
 footer{
-    margin-top: 50px;
+    border: 2px solid #ccc;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+  
+    padding: 10px 0;
     text-align: center;
+    
+  
+}
+
+footer a.link{
+    text-decoration: none;
+    margin: 0px 75px;
+}
+
+footer a{
+    text-decoration: none;
 }

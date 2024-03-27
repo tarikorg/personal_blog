@@ -1,0 +1,50 @@
+/* Light mode style*/
+body {
+    background-color: #f9f9f9; /* Light mode background color */
+    color: #333; /* Light mode text color */
+    transition: 1s ease;
+}
+
+/* Dark mode style */
+body.dark-mode {
+    background-color: #333; /* Dark mode background color */
+    transition: 1s ease;
+}
+
+body.dark-mode main.pageOfContents{
+    color: #fff; /*color of page of content when dark */
+}
+
+body.dark-mode footer{
+    color: #fff; /* Footer color Dark Mode */
+}
+body.dark-mode footer a{
+    color: #c2c2c2; /* Footer color Dark Mode */
+}
+
+body.dark-mode footer a.link{
+    color: #c2c2c2; /* Footer color Dark Mode */
+}
+/* Toggle button style*/
+#toggleMode {
+    padding: 10px 20px;
+    background-color: #007bff; /* Light mode button color */
+    color: #fff; /* Light mode button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#toggleMode:hover {
+    background-color: #0056b3; /* Light mode button hover color */
+}
+
+/* Dark mode toggle button styles */
+#toggleMode.dark-mode {
+    background-color: #333; /* Dark mode button color */
+    color: #f9f9f9; /* Dark mode button text color */
+}
+
+#toggleMode.dark-mode:hover {
+    background-color: #666; /* Dark mode button hover color */
+}
