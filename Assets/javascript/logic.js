@@ -3,6 +3,6 @@
  const body = document.body;
 
  toggleModeButton.addEventListener('click', function() {
-    
-     body.classList.toggle('dark-mode');
+     // add dark mode class on it, so in css when its dark mode class it will different attributes
+     body.classList.toggle('dark-mode'); 
  });
